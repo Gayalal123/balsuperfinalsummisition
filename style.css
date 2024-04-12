@@ -2,14 +2,14 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #352c2c;
-  background-color: #28517c;
+  background-color: #46484a;
   scroll-behavior: smooth;
   font-weight: 400;
   font-style: normal;
 }
 :root{
   --bg-color:#191926;
-  --second-bg-color:#323946;
+  --second-bg-color:#463245;
   --text-color:#fff;
   --main-colour:#0ef;
 }
@@ -28,9 +28,12 @@ section{
 }
 
 
+
+
+
 .navbar {
     padding: 0;
-    background: rgb(112, 123, 112)
+    background: rgb(86, 90, 86)
     
   }
   
@@ -70,7 +73,7 @@ section{
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #47b2e4;
+    color: #47ade4;
   }
   
   .navbar .getstarted,
@@ -92,7 +95,7 @@ section{
    
   
   .aboutme img{
-    border-radius: 80px;
+    border-radius: 100px;
     
   }
   .projectsection.projectheading{
@@ -266,7 +269,7 @@ section{
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
+  background: #4a47e4;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -414,7 +417,11 @@ section{
 }
 
 .achivephoto {
-  border-radius: 80px;
+  border-radius: 100px;
   
+}
+#Home{
+  margin-top: 0px;
+  padding: 0;
 }
 
